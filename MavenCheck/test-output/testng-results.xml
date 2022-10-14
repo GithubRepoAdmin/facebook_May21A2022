@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T18:19:47 IST" name="Suite" finished-at="2022-10-08T18:20:45 IST" duration-ms="57846">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T18:19:47 IST" name="ChromeTest" finished-at="2022-10-08T18:20:34 IST" duration-ms="47299">
+      <class name="mavenPack.VarifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:19:50 IST" name="launchBrowser" finished-at="2022-10-08T18:19:53 IST" duration-ms="3281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:19:59 IST" name="createPOMObjects" finished-at="2022-10-08T18:19:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:19:59 IST" name="openRoomsPage" finished-at="2022-10-08T18:20:05 IST" duration-ms="5837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="varifyReturnToMessengerButton()[pri:1, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:05 IST" name="varifyReturnToMessengerButton" finished-at="2022-10-08T18:20:14 IST" duration-ms="8926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyReturnToMessengerButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:14 IST" name="logout" finished-at="2022-10-08T18:20:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:14 IST" name="openRoomsPage" finished-at="2022-10-08T18:20:24 IST" duration-ms="9725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="varifyVisitOurHelpCenterButton()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:24 IST" name="varifyVisitOurHelpCenterButton" finished-at="2022-10-08T18:20:32 IST" depends-on-methods="mavenPack.VarifyRoomsPage.varifyReturnToMessengerButton" duration-ms="8548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyVisitOurHelpCenterButton -->
+        <test-method is-config="true" signature="closePOMObjects()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:32 IST" name="closePOMObjects" finished-at="2022-10-08T18:20:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePOMObjects -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:32 IST" name="logout" finished-at="2022-10-08T18:20:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenPack.VarifyRoomsPage@428640fa]" started-at="2022-10-08T18:20:34 IST" name="closeBrowser" finished-at="2022-10-08T18:20:34 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenPack.VarifyRoomsPage -->
+      <class name="mavenPack.VarifyInstagramLoginButton">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:47 IST" name="launchBrowser" finished-at="2022-10-08T18:19:50 IST" duration-ms="2812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:53 IST" name="createPOMObjects" finished-at="2022-10-08T18:19:53 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openInstagramLogInPage()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:53 IST" name="openInstagramLogInPage" finished-at="2022-10-08T18:19:55 IST" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInstagramLogInPage -->
+        <test-method signature="verifyLogInButton()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:55 IST" name="verifyLogInButton" finished-at="2022-10-08T18:19:59 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:59 IST" name="logout" finished-at="2022-10-08T18:19:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closePOMObjects()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:19:59 IST" name="closePOMObjects" finished-at="2022-10-08T18:19:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePOMObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@26e356f0]" started-at="2022-10-08T18:20:32 IST" name="closeBrowser" finished-at="2022-10-08T18:20:34 IST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenPack.VarifyInstagramLoginButton -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-10-08T18:19:47 IST" name="FirefoxTest" finished-at="2022-10-08T18:20:45 IST" duration-ms="57846">
+      <class name="mavenPack.VarifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:19:54 IST" name="launchBrowser" finished-at="2022-10-08T18:20:01 IST" duration-ms="6310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefoxBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:09 IST" name="createPOMObjects" finished-at="2022-10-08T18:20:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:09 IST" name="openRoomsPage" finished-at="2022-10-08T18:20:36 IST" duration-ms="27427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="varifyReturnToMessengerButton()[pri:1, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:36 IST" name="varifyReturnToMessengerButton" finished-at="2022-10-08T18:20:37 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyReturnToMessengerButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:37 IST" name="logout" finished-at="2022-10-08T18:20:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:37 IST" name="openRoomsPage" finished-at="2022-10-08T18:20:39 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="varifyVisitOurHelpCenterButton()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:39 IST" name="varifyVisitOurHelpCenterButton" finished-at="2022-10-08T18:20:42 IST" depends-on-methods="mavenPack.VarifyRoomsPage.varifyReturnToMessengerButton" duration-ms="2892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyVisitOurHelpCenterButton -->
+        <test-method is-config="true" signature="closePOMObjects()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:42 IST" name="closePOMObjects" finished-at="2022-10-08T18:20:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePOMObjects -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:42 IST" name="logout" finished-at="2022-10-08T18:20:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenPack.VarifyRoomsPage@d86a6f]" started-at="2022-10-08T18:20:44 IST" name="closeBrowser" finished-at="2022-10-08T18:20:45 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenPack.VarifyRoomsPage -->
+      <class name="mavenPack.VarifyInstagramLoginButton">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:19:47 IST" name="launchBrowser" finished-at="2022-10-08T18:19:54 IST" duration-ms="7311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefoxBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:01 IST" name="createPOMObjects" finished-at="2022-10-08T18:20:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openInstagramLogInPage()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:01 IST" name="openInstagramLogInPage" finished-at="2022-10-08T18:20:03 IST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInstagramLogInPage -->
+        <test-method signature="verifyLogInButton()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:03 IST" name="verifyLogInButton" finished-at="2022-10-08T18:20:09 IST" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogInButton -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:09 IST" name="logout" finished-at="2022-10-08T18:20:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closePOMObjects()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:09 IST" name="closePOMObjects" finished-at="2022-10-08T18:20:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePOMObjects -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:mavenPack.VarifyInstagramLoginButton@4145bad8]" started-at="2022-10-08T18:20:42 IST" name="closeBrowser" finished-at="2022-10-08T18:20:44 IST" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- mavenPack.VarifyInstagramLoginButton -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
